@@ -2,19 +2,20 @@
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaGlobe, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
+import { QRCode } from "react-qrcode-logo";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
       <UserProfile
-        githubUrl="https://github.com"
+        githubUrl="https://github.com/RaphaelManke"
         imageUrl="/15867688.jpeg"
         jobTitle="IT consultant"
-        linkedinUrl="https://linkedin.com"
+        linkedinUrl="https://www.linkedin.com/in/raphael-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-manke-a61912114/"
         name="Raphael Manke"
-        websiteUrl="https://example.com"
-        twitterUrl="https://twitter.com"
-        descriptionEn="I am a software developer with a passion for building web applications. I am currently working as a consultant at a large IT company."
+        websiteUrl="https://www.codecentric.de/standorte/karlsruhe/karlsruhe-team#raphael-manke"
+        twitterUrl="https://twitter.com/RaphaelManke"
+        descriptionEn="Raphael Manke is a full-stack developer and consultant with five years of experience in developing serverless applications in the AWS cloud. AWS CDK changed his way of defining infrastructure as code dramatically and he likes to share his experiences and challenges along the way."
         descriptionDe="Raphael ist ein Full-Stack-Entwickler und Berater bei der codecentric AG mit Erfahrung in der Entwicklung von Serverless-Anwendungen in der AWS-Cloud. AWS CDK hat seine Art, Infrastruktur als Code zu definieren. Raphael teilt gerne seine Erfahrungen und Herausforderungen."
       ></UserProfile>
     </main>
@@ -166,6 +167,17 @@ const UserProfile: React.FC<UserProfileProps> = ({
             label="Twitter"
           />
         </div>
+        {/* <QRCode
+          value="https://social-media-profile.vercel.app"
+          logoImage="/cc_color logo_big-sign_RGB_onWhite.png"
+          removeQrCodeBehindLogo={true}
+          ecLevel="H"
+          logoOpacity={1}
+          size={400}
+          logoHeight={100}
+          logoWidth={100}
+          qrStyle="dots"
+        /> */}
       </div>
     </div>
   );
