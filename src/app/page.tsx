@@ -11,7 +11,7 @@ export default function Home() {
         githubUrl="https://github.com/RaphaelManke"
         imageUrl="/15867688.jpeg"
         jobTitle="IT consultant"
-        linkedinUrl="https://www.linkedin.com/in/raphael-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-manke-a61912114/"
+        linkedinUrl="https://www.linkedin.com/in/raphael-manke-a61912114/"
         name="Raphael Manke"
         websiteUrl="https://www.codecentric.de/standorte/karlsruhe/karlsruhe-team#raphael-manke"
         twitterUrl="https://twitter.com/RaphaelManke"
